@@ -1,0 +1,14 @@
+[package]
+name = "pi-copter"
+version = "0.1.0"
+authors = ["Benjamin Cheng <ben@bcheng.cf>"]
+
+[dependencies]
+i2csensors = "0.1"
+i2cdev = "0.3"
+i2cdev-bmp280 = "0.1"
+nalgebra = "0.13"
+serial = "0.4"
+time = "0.1"
+rust-pigpio = { path = "../rust_pigpio" }
+uart_bno055 = { path = "../uart-bno055" }
